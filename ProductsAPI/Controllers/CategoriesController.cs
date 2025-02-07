@@ -15,7 +15,6 @@ namespace ProductsAPI.Controllers
         public IActionResult Get()
         {
             var categoryRepository = new CategoryRepository();
-
             var categories = categoryRepository.GetAll();
 
             var response = new List<CategoryResponseDTO>();
