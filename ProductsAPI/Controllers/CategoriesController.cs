@@ -9,7 +9,7 @@ namespace ProductsAPI.Controllers
     public class CategoriesController : ControllerBase
     {
         /// <summary>
-        /// Serviço para consulta de categorias da API. BBB
+        /// Serviço para consulta de categorias da API.
         /// </summary>
         [HttpGet]
         public IActionResult Get()
